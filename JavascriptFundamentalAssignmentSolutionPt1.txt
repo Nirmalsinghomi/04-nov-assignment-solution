@@ -1,0 +1,120 @@
+Q1. Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Sol - Operators in JavaScript are symbols that perform operations on operands. Operands can be variables, values, or expressions. Operators are essential in programming because they allow us to manipulate data and perform calculations.
+
+:- They are essential in programming languages as it can be used to
+
+1. perform Arithmetic operations
+2. Assign operators
+3. Compare Operators
+4. Perform logical operations
+
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+
+Sol - Operators in JavaScript are categorized based on their functionality into the following groups:
+
+1. Arithmetic Operators: These operators perform mathematical operations on operands. Operands can be numbers or variables
+
+(i) Addition (+) = const app = 2+2 , which is equal to 5 .
+(ii) Substraction (-) = const del = 3-3 , which is equal to 0 .
+(iii) Multiplication (*) = const mul = 2*2 , which is equal to 4.
+(iv) Division (/) = const div = 6/2 , quotient is equal to 3.
+(v) Expontiation (**) = const expo = 2**2 , which is equal t0 8.
+(vi) Modulo (%) =  const mod = 5%2 , which is equal to 1.
+
+2. Assignment Operators : These operators assign values to varaibles.
+
+(i) Assignment operator (=) = const ass = 1;
+(ii) Addition assignment operator (+=) = const ass += 5 , which is equal to 6 ;
+(iii) Substraction assignment operators (-=) = const ass -= 3, which is equal to 3 ;
+(iv) Multiplication assignment operators (*=) = const ass *= 2 , which is equal to 6 ;
+(v) Division assignment operators (/=) = const ass /=2 , which is equal to 3 ;
+(vi) Module assignment operators (%=) = const ass %= 2, which is equal to 1 .
+
+3. Comparison Operators : These operators compare two values and return Boolean value (true or false) .
+
+(i) Equal to (==) = const iseaual 10== 10 , value is true  ;
+(ii) Not equal to (!=) = const isequal != 9 , value is true ;
+(iii) Greater than (>) = const isequal > 5 , value is true ;
+(iv) Less than (<) = const isequal < 11 , value is true ;
+(v) Greater than or equal to (>=) = const isequal >= 10 , value is fa;se ;
+(vi) Less than or equal to (<=) = const isequal <= 9 , value is false 
+
+4. Logical operators : These operators perform logical operations on Boolean values.
+
+(i) And (&&) = const a =5, b= 2 , a and b > 4, value is true ;
+(ii) Or (||) = a || b > 5 , value is false ;
+(iii) Not (!) = a ! b , value is true ;
+
+Que 3. Differentiate between unary and binary operators in Javascript . Give examples of each.
+
+Sol :-  Operators in JavaScript are categorized based on the number of operands they require, into the following groups:
+
+• Unary operators: Unary operators operate on a single operand.
+• Binary operators: Binary operators operate on two operands.
+
+Unary operators in JavaScript are:
++
+-
+*
+/
+%
+==
+===
+>
+<
+>=
+<=
+&&
+||
+
+Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts Important?
+
+Solution-Precedence refers to the order in which operators are evaluated when multiple operators are present in an expression. Operators with higher precedence are executed first. For example, in the expression 3+5*2, multiplication (*) has higher precedence than addition (+), so the multiplication is performed first.
+
+...const result = 3+52; // The result will be 13, not 16 (if addition had higher precedence)...
+
+Associativity refers to the order in which operators of the same precedence are evaluated. Some operators associate left to right, meaning they are evaluated from left to right. Others associate right to left, meaning they are evaluated from right to left.
+
+...const result = 105+ 2; // The result will be 17 (evaluated as (10+5) + 2)...
+
+Understanding precedence and associativity is important for several reasons:
+
+• Correct Expression Evaluation: Understanding the order of precedence ensures that expressions are evaluated correctly, preventing potential errors or unexpected results.
+
+• Predictable Code: When working with complex expressions, knowing the precedence and associativity allows developers to write code that behaves as intended, making it easier to reason about and maintain.
+
+• Debugging and Troubleshooting: In case of unexpected results, knowing operator precedence and associativity helps in debugging and identifying the root cause of issues.
+
+• Optimizing Code: Knowledge of precedence and associativity can be used to optimize code by avoiding unnecessary parentheses and ensuring efficient computation
+
+Que 5. Write a Javascript program that calculates the simple interest using the formula Simple interest = (principal * rate * time ) / 100.
+
+sol ... 
+const pri = 1000
+const rate = 5
+const time = 2 
+
+const result = (pri * rate * time ) / 100
+console.log (`Simple interest is ` , result )
+...
+
+Que 6 .Write a JavaScript program to calculate the Body mass index (BMI) using the formula BMI = weight / height .
+
+solution = ...
+const weight = 55
+const height = 163 
+
+const bmi = weight / height * height
+console.log (`Bmi is ` , bmi)
+...
+
+Que 7. Write a program in Javascript to calculate the area of a circle given the radius is 10 . Use appropriate arithmetic operators. 
+
+solution ...
+const radius = 10 
+const pi = math.pi 
+
+const area = pi * math.pow (radius, 2 ) ;
+console.log (`area of the circle of radius 10 is ` , area)
+...
